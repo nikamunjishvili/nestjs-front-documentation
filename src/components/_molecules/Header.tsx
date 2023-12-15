@@ -14,8 +14,8 @@ const Header = () => {
             style={{ width: 70, height: 67 }}
           />
         </Link>
-        <Link to="/documentation" style={{ textDecoration: "none" }}>
-          <li style={{ color: "white" }}>{t("header.documentation")}</li>
+        <Link to="/documentation" style={{textDecoration: 'none'}}>
+          <li className="documentation_link">{t("header.documentation")}</li>
         </Link>
       </ul>
       <div className="languages_container">

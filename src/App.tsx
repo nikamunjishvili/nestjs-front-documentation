@@ -1,11 +1,6 @@
-import { Suspense } from "react";
 import { Home } from "./pages";
 
 function App() {
-  return (
-    <div>
-     <Home />
-    </div>
-  );
+  return <Home />;
 }
 export default App;
