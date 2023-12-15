@@ -1,0 +1,15 @@
+{
+  "header": {
+    "documentation": "DOCUMENTATION"
+  },
+  "home": {
+    "title": "Hello From Nest.js",
+    "description": "A progressive Node.js framework for building efficient, reliable and scalable server-side applications.",
+    "buttonCode": "source code",
+    "documentation": "documentation"
+  },
+  "main": {
+    "language": "english",
+    "title": "Welcome to react using react-i18next"
+  }
+}
