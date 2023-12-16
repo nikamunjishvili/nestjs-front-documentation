@@ -10,5 +10,12 @@
   },
   "main": {
     "title": "კეთილი იყოს თქვენი მობრძანება"
+  },
+  "documentation": {
+    "leftContainer": {
+      "Introduction": "შესავალი",
+      "overview": "მიმოხილვა",
+      "fundamentals": "საფუძვლები"
+    }
   }
 }
