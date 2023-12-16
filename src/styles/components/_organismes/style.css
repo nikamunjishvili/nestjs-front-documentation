@@ -1,0 +1,130 @@
+.left-container {
+  width: 250px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  height: 90vh;
+}
+
+.menu-icon {
+  margin-right: 5px;
+}
+
+.left-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left-container li {
+  cursor: pointer;
+  position: relative;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.left-container .menu-icon {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+.sub-item-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.sub-item-container.expanded {
+  max-height: 1000px;
+}
+
+.sub-item {
+  padding-left: 30px;
+  color: grey;
+  font-size: 14px;
+  display: none;
+}
+
+.sub-item-container.expanded .sub-item {
+  display: block;}
+
+
+.left-container li:hover {
+  background-color: #e1e1e1;
+  border-left: 3px solid #ff3e00;
+}
+
+.left-container li:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+.left-container .sub-item {
+  padding-left: 20px;
+  display: none;
+}
+
+.left-container .open .sub-item {
+  display: block;
+}
+.left-container .menu-icon {
+  position: absolute;
+  right: 0;
+}
+
+.left-container .menu-icon {
+  margin-left: 5px;
+}
+.sub-item-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.sub-item-container.expanded {
+  max-height: 500px; 
+}
+
+@media (max-width: 768px) {
+  .left-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+
+.left-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left-container li {
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  display: flex;
+  align-items: center;
+}
+
+.left-container li:hover {
+  background-color: #e1e1e1;
+  border-left: 3px solid #ff3e00;
+}
+
+.left-container li:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-icon {
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+}

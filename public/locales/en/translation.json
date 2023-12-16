@@ -11,5 +11,12 @@
   "main": {
     "language": "english",
     "title": "Welcome to react using react-i18next"
+  },
+  "documentation": {
+    "leftContainer": {
+      "Introduction": "Introduction",
+      "overview": "Overview",
+      "fundamentals": "Fundamentals"
+    }
   }
 }

@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-import i18n from "../../i18next";
 import "../../styles/components/header/style.css";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <header className="header">
       <ul className="list">
@@ -14,7 +15,7 @@ const Header = () => {
             style={{ width: 70, height: 67 }}
           />
         </Link>
-        <Link to="/documentation" style={{textDecoration: 'none'}}>
+        <Link to="/documentation" style={{ textDecoration: "none" }}>
           <li className="documentation_link">{t("header.documentation")}</li>
         </Link>
       </ul>

@@ -1,12 +1,17 @@
-import React from 'react'
-import MainLayout from '../../components/layouts/MainLayout'
+import MainLayout from "../../components/layouts/MainLayout";
+import LeftContainer from "../../components/_organismes/LeftContainer";
 
 const Documentation = () => {
   return (
     <MainLayout>
-        <h1>Documentation</h1>
+      <div style={{ display: "flex" }}>
+        <LeftContainer />
+        <div style={{ padding: 20 }}>
+          <h1>Documentation</h1>
+        </div>
+      </div>
     </MainLayout>
-  )
-}
+  );
+};
 
-export default Documentation
+export default Documentation;
