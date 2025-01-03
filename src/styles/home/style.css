@@ -10,7 +10,7 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: calc(100vh - 10vh);
+    min-height:100vh;
     display: flex;
     align-items: center;
     padding-left: 5rem;

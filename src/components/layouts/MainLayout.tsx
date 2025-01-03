@@ -6,7 +6,9 @@ interface LayoutProps {
 }
 const MainLayout = ({ children }: LayoutProps) => {
   return (
-    <div>
+    <div style={{
+      backgroundColor: '#1c1e21'
+    }}>
       <Header />
       {children}
     </div>
